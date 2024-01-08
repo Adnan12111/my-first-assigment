@@ -1,0 +1,149 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    max-width: 1400px;
+    margin: auto;
+}
+/* banner section styles */
+.banner{
+    background-image: url(../image/Banner\ Image.png);
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.banner-discription{
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+}
+.banner-name{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-titel{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+/* off section styles */
+.off-section{
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 150px;
+}
+.off-titel{
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    margin-bottom: 45px;
+}
+.off-discription{
+    color: purple;
+    font-size: 25px;
+    font-weight: 500;
+}
+.off-name{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    
+}
+/* wealcome container styles */
+.wealcome-container{
+    display: flex;
+
+    background-image: url(../image/Vectorrr.png);
+    /* background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 130px;
+}
+.wealcome-details{
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+}
+.wealcome-titel{
+    font-size: 65px;
+    font-weight: 900;
+}
+.wealcome-discription{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.wealcome-btn{
+    margin-top: 44px;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+}
+.wealcome-photo{
+    padding: 67px 144px 67px;
+}
+/* party deriction styles  */
+.party-direction{
+    text-align: center;
+    margin-top: 120px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    padding: 100px 386px 213px 385px;
+}
+.party-details{
+    font-size: 32px;
+    font-weight: 600;
+}
+.party-btn{
+    background-color: purple;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+/* offers style */
+.offers{
+    display: flex;
+    margin-top: 122px;
+    justify-content: center;
+}
+.offers-head{
+    padding-right: 70px;
+    
+}
+.offers-mid{
+  border: 14px solid purple;
+  border-radius: 465px;
+  
+}
+.offers-foot{
+    /* padding-left: 110px; */
+    padding-left: 70px;
+}
+.head-name{
+    font-size: 25px;
+    font-weight: 500;
+    color: purple;
+}
+.head-titel{
+    font-size: 48px;
+    font-weight: 900;
+}
+.head-discription{
+    font-size: 20px;
+    font-weight: 400;
+}
+.foot-titel{
+    font-size: 48px;
+    font-weight: 700;
+    color: purple;
+}
+.foot-discription{
+    font-size: 20px;
+    font-weight: 400;
+}

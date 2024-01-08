@@ -147,3 +147,63 @@ body{
     font-size: 20px;
     font-weight: 400;
 }
+/* holidays styles */
+.holiday{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 65px;
+}
+.holiday-name{
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-titel{
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-discription{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* img-section style */
+.img-section{
+    display: flex;
+    margin-left: 600px;
+}
+.fifty{
+
+}
+.box{
+    background-image: url(../image/Rectangle\ 2.png);
+    background-size: cover;
+    height: 230px;
+}
+.portfolio{
+    text-align: left;
+}
+.portfolio-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: purple;
+}
+.portfolio-titel{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.portfolio-discription{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+/* portfolio-photos */
+.portfolio-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.image{
+    width: 420px;
+    height: 450px;
+}

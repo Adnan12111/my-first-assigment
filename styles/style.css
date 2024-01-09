@@ -9,7 +9,7 @@ body{
 }
 /* banner section styles */
 .banner{
-    background-image: url(../image/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../image/Banner\ Image.png);
     background-size: cover;
     height: 600px;
     border-radius: 15px;
@@ -55,9 +55,8 @@ body{
 /* wealcome container styles */
 .wealcome-container{
     display: flex;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../image/Vectorrr.png);
 
-    background-image: url(../image/Vectorrr.png);
-    /* background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-size: cover;
     border-radius: 15px;
     margin-top: 130px;
@@ -217,6 +216,7 @@ body{
     text-align: center;
     background-color: rgb(244, 225, 244);
     padding: 80px 212px 80px 212px;
+    border-radius: 15px;
 }
 .sub-titel{
     font-size: 48px;
@@ -246,4 +246,50 @@ body{
     border-radius: 0 17px 17px 0;
     background-color: purple;
     color: white;
+}
+/* foot head style */
+.foot-section{
+    background-color: black;
+}
+.foot-head{
+   
+    padding-top: 120px;
+    
+    color: white;
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.contacts{
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 140px;
+    text-align: right;
+
+}
+
+.call{
+    display: flex;
+}
+.weab{
+    display: flex;
+}
+.foot-hr{
+ 
+    margin-top: 45px;
+    width: 1300px;
+}
+.soceal-icons{
+    text-align: center;
+    margin-top: 50px;
+}
+.soceal-icons , img{
+    padding: 10px;
+}
+.foot-foot{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 120px;
 }

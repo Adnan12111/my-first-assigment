@@ -294,3 +294,13 @@ body{
     margin-top: 50px;
     padding-bottom: 120px;
 }
+/* hover section */
+.wealcome-btn:hover{
+    box-shadow: 10px 10px 5px  gray;
+    border: 2px solid black;
+}
+.party-btn:hover{
+    box-shadow: 10px 10px 5px  gray;
+    border: 2px solid black;
+
+}
